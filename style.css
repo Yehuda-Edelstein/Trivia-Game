@@ -10,10 +10,14 @@ h1 {
 
 }
 
+.score {
+    text-align: right;
+}
+
 .questions {
 
 }
 
 .answer-buttons {
-    
+
 }

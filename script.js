@@ -1,12 +1,13 @@
 // VARIABLES
 const startButton = document.querySelector(".start-button")
+const score = document.querySelector(".tally")
 let description = document.querySelector(".description")
+
 
 const answer1 = "1965"
 
+let isQuestionAnswered = false
 // FUNCTIONS
-
-
 
 function startGame (event) {
     event.preventDefault()
@@ -45,15 +46,19 @@ function startGame (event) {
         for (let i = 0; i < answerButtons.length; i++) {
             function chooseAnswer (event) {
                 event.preventDefault()
-                console.log(answerButtons[i].innerText)
+                if (isQuestionAnswered == true)
+                    return chooseAnswer
+                if (answerButtons[i].innerText == answer1) {
+                    description.innerHTML = "That's correct!"
+                    score.innerText = score.innerText + 1
+                    isQuestionAnswered = true
+                } else {
+                    description.innerHTML = "Sorry, but that's wrong."
+                    isQuestionAnswered = true
+                }
             }
-                answerButtons[i].addEventListener("click", chooseAnswer)
-                
-            
+                answerButtons[i].addEventListener("click", chooseAnswer)    
         }
-
-
-            
 
 
     }, delayInMilliseconds)    
