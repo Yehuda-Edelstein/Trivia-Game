@@ -1,23 +1,23 @@
-body {
-
+.instructions, .start-button, .questions {
+    border: 1px solid black;
+    text-align: center;
 }
 
-h1 {
-
+.start-button {
+    margin-top: 50px;
 }
 
-.description {
-
+#close-button {
+    display: none;
 }
 
-.score {
-    text-align: right;
+.answers {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   text-align: center;
+   margin-top: 100px;
 }
 
-.questions {
-
-}
-
-.answer-buttons {
-
+#answer-1, #answer-2, #answer-3 {
+    border: 1px solid black;
 }
