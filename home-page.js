@@ -10,7 +10,7 @@ function howToPlay (event) {
     event.preventDefault()
     if (instructionsShown == true) {return}
     const instructionsText = document.createElement("p") 
-    instructionsText.innerText = "This is how you play"
+    instructionsText.innerText = "Try your best to answer the questions correctly. That's it, really."
     instructions.appendChild(instructionsText)
     
     const x = document.getElementById("close-button")

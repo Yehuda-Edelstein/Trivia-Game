@@ -1,3 +1,16 @@
+h1, .description {
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+.score {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .instructions, .start-button, .questions {
     border: 1px solid black;
     text-align: center;
@@ -26,4 +39,9 @@
     text-align: center;
     margin-top: 100px;
     border: 1px solid black;
+}
+
+#fun-fact {
+    text-align: center;
+    margin-top: 100px;
 }
