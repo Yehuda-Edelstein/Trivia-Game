@@ -21,3 +21,9 @@
 #answer-1, #answer-2, #answer-3 {
     border: 1px solid black;
 }
+
+.next-question {
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid black;
+}
