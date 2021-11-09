@@ -1,3 +1,4 @@
+
 const funFact = document.querySelector("#fun-fact")
 
 const answer1 = document.querySelector("#answer-1")
@@ -20,8 +21,8 @@ function firstAnswer (event) {
     nextButton.style.display = "block"
     
     funFact.style.display = "block"
-    score = 10
-    scoreBox.innerHTML = `Score -- ${score}`
+    const status = document.querySelector(".status")
+    status.innerHTML = "That's correct!"
 }
 
 function secondAnswer (event) {
@@ -32,6 +33,8 @@ function secondAnswer (event) {
     nextButton.style.display = "block"
 
     funFact.style.display = "block"
+    const status = document.querySelector(".status")
+    status.innerHTML = "Sorry, but that's wrong."
 }
 
 function thirdAnswer (event) {
@@ -42,6 +45,8 @@ function thirdAnswer (event) {
     nextButton.style.display = "block"
 
     funFact.style.display = "block"
+    const status = document.querySelector(".status")
+    status.innerHTML = "Sorry, but that's wrong."
 }
 answer1.addEventListener("click", firstAnswer)
 answer2.addEventListener("click", secondAnswer)

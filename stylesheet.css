@@ -1,0 +1,142 @@
+
+body {
+    background-color: rgba(255, 0, 0, .2);
+    font-family: monaco;
+}
+
+h1, .questions-answered, .description, p {
+    text-align: center;
+}
+
+#trivia-italic {
+    font-style: italic;
+}
+
+.instructions, .start-button, .no-hover {
+    justify-content: center;
+    border: 5px double black;
+    margin: 50px;
+}
+
+#close-button {
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    
+    display: none;
+}
+
+.start-button {
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none; 
+    margin: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 5px double black;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px double black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    max-width: 80%;
+    display: none;
+}
+
+.modal-header {
+    padding: 25px 15px 25px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.fun-fact {
+    padding: 25px 15px 25px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+li:hover, .instructions:hover, .start-button:hover {
+    background-color: yellow;
+}
+
+.next-question, #close-button, .play-again {
+    transition: all .1s ease-in-out;
+}
+
+.next-question:hover {
+    color: rgba(0, 0, 255, 0.8);
+    transform: scale(1.05);
+}
+
+#close-button:hover {
+    color: rgba(0, 0, 255, 0.8);
+    transform: scale(1.75);
+}
+
+li, .next-question, .instructions, .start-button, #close-button, .play-again { cursor: pointer; }
+
+
+/* END OF GAME MODUL */
+
+.end-game {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px double black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 1000px;
+    height: 400px;
+    max-width: 80%;
+    display: none;
+}
+
+.congrats {
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.score {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.play-again {
+    text-align: right;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.play-again:hover {
+    color: rgba(0, 0, 255, 0.8);
+    transform: scale(1.02);
+}

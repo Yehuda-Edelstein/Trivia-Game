@@ -19,6 +19,8 @@ function firstAnswer (event) {
     nextButton.style.display = "block"
 
     funFact.style.display = "block"
+    const status = document.querySelector(".status")
+    status.innerHTML = "Sorry, but that's wrong."
 }
 
 function secondAnswer (event) {
@@ -29,6 +31,8 @@ function secondAnswer (event) {
     nextButton.style.display = "block"
 
     funFact.style.display = "block"
+    const status = document.querySelector(".status")
+    status.innerHTML = "Sorry, but that's wrong."
 }
 
 function thirdAnswer (event) {
@@ -39,6 +43,8 @@ function thirdAnswer (event) {
     nextButton.style.display = "block"
 
     funFact.style.display = "block"
+    const status = document.querySelector(".status")
+    status.innerHTML = "That's correct!"
 }
 answer1.addEventListener("click", firstAnswer)
 answer2.addEventListener("click", secondAnswer)
@@ -46,10 +52,10 @@ answer3.addEventListener("click", thirdAnswer)
 
 
 
-// function nextQuestion (event) {
-//     event.preventDefault()
-//     window.location = "question-2.html"
-// }
+function nextQuestion (event) {
+    event.preventDefault()
+    window.location = "question-3.html"
+}
 
-// nextButton.addEventListener("click", nextQuestion)
+nextButton.addEventListener("click", nextQuestion)
 
