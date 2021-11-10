@@ -23,8 +23,65 @@ let questions = [
         answer3: "Roads",
         rightAnswer: "Roads",
         funFact: "The words 'three roads' was another way of saying common knowledge or 'commonplace' in Roman times."
+    },
+    {
+        question: "In what year was the term 'trivia' first documented publically?",
+        answer1: "1965",
+        answer2: "1932",
+        answer3: "1907",
+        rightAnswer: "1965",
+        funFact: "On February 5, 1965, the Columbia Daily Spectator published a column by Ed Goodgold, which coined the term 'Trivia' for the well-known parlour game."
+    },
+    {
+        question: "Which state holds the largest trivia contest in America?",
+        answer1: "Maryland",
+        answer2: "Vermont",
+        answer3: "Wisconsin",
+        rightAnswer: "Wisconsin",
+        funFact: "Stevens Point, Wisconsin holds the largest current contest for trivia at the University of Wisconsin-Stevens Point's college radio station. The contest is open to anyone and usually consists of 400 teams."
+    },
+    {
+        question: "The word 'Trivia' derives from the Roman words meaning 'three ______.'",
+        answer1: "Choices",
+        answer2: "Trees",
+        answer3: "Roads",
+        rightAnswer: "Roads",
+        funFact: "The words 'three roads' was another way of saying common knowledge or 'commonplace' in Roman times."
+    },
+    {
+        question: "In what year was the term 'trivia' first documented publically?",
+        answer1: "1965",
+        answer2: "1932",
+        answer3: "1907",
+        rightAnswer: "1965",
+        funFact: "On February 5, 1965, the Columbia Daily Spectator published a column by Ed Goodgold, which coined the term 'Trivia' for the well-known parlour game."
+    },
+    {
+        question: "Which state holds the largest trivia contest in America?",
+        answer1: "Maryland",
+        answer2: "Vermont",
+        answer3: "Wisconsin",
+        rightAnswer: "Wisconsin",
+        funFact: "Stevens Point, Wisconsin holds the largest current contest for trivia at the University of Wisconsin-Stevens Point's college radio station. The contest is open to anyone and usually consists of 400 teams."
+    },
+    {
+        question: "The word 'Trivia' derives from the Roman words meaning 'three ______.'",
+        answer1: "Choices",
+        answer2: "Trees",
+        answer3: "Roads",
+        rightAnswer: "Roads",
+        funFact: "The words 'three roads' was another way of saying common knowledge or 'commonplace' in Roman times."
+    },
+    {
+        question: "The word 'Trivia' derives from the Roman words meaning 'three ______.'",
+        answer1: "Choices",
+        answer2: "Trees",
+        answer3: "Roads",
+        rightAnswer: "Roads",
+        funFact: "The words 'three roads' was another way of saying common knowledge or 'commonplace' in Roman times."
     }
 ]
+
 
 const q = document.querySelector(".question")
 const heading = q.querySelector("h1")
