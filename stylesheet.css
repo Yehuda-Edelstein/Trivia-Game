@@ -1,7 +1,12 @@
+html, body {
+   margin: 0;
+   height: 100%;
+   
+}
 
-body {
-    background-color: rgba(255, 0, 0, .2);
+body {    
     font-family: monaco;
+    background-color: rgba(255, 0, 0, .2)
 }
 
 h1, .questions-answered, .description, p {
