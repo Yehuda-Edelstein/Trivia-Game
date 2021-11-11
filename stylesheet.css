@@ -1,7 +1,6 @@
 html, body {
    margin: 0;
    height: 100%;
-   
 }
 
 body {    
@@ -110,7 +109,7 @@ li:hover, .instructions:hover, .start-button:hover {
     transform: scale(1.75);
 }
 
-li, .next-question, .instructions, .start-button, #close-button, .play-again, .home-page { cursor: pointer; }
+li, .next-question, .instructions, .start-button, #close-button, .home-page { cursor: pointer; }
 
 
 
@@ -142,14 +141,9 @@ li, .next-question, .instructions, .start-button, #close-button, .play-again, .h
     font-size: 3.5rem;
 }
 
-.play-again:hover, .home-page:hover {
+.home-page:hover {
     color: rgba(0, 0, 255, 0.8);
     transform: scale(1.02);
-}
-
-.play-again {
-    float: right;
-    margin: 10px;
 }
 
 .home-page {
@@ -163,5 +157,13 @@ li, .next-question, .instructions, .start-button, #close-button, .play-again, .h
 }
 
 .no-modal {
+    display: none;
+}
+
+.home-page-heading {
+    display: block;
+}
+
+.question-heading {
     display: none;
 }
