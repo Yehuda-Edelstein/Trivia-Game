@@ -1,5 +1,52 @@
-// - VARIABLES
-window.location = "home-page.html"
+// - HOME PAGE
+const homePageHeading = document.querySelector(".home-page-heading")
+const questionHeading = document.querySelector(".question-heading")
+
+const description = document.querySelector(".description")
+const instructions = document.querySelector("#instructions")
+const startButton = document.querySelector(".start-button")
+const div = document.querySelector(".instructions")
+
+
+let instructionsShown = false
+
+
+// FUNCTIONS
+function howToPlay (event) {
+    event.preventDefault()
+    if (instructionsShown == true) {return}
+
+    instructions.innerText = ""
+
+    const instructionsText = document.createElement("p") 
+    instructionsText.innerText = "Try your best to answer the questions correctly. That's it, really."
+    instructions.appendChild(instructionsText)
+    
+    const x = document.getElementById("close-button")
+    x.style.display = "block"
+    instructionsShown = true
+    div.className = ("no-hover")
+
+    function closeButton (event) {
+        event.preventDefault()
+        x.style.display = "none"
+        instructionsText.style.display = "none"
+        instructionsShown = false
+        div.className = ("instructions")
+        instructions.innerText = "How to Play"
+    }
+    x.addEventListener("click", closeButton)
+}
+instructions.addEventListener("click", howToPlay)
+
+function startGame (event) {
+    event.preventDefault()
+    homePageHeading.style.display = "none"
+    questionHeading.style.display = "block"
+}
+startButton.addEventListener("click", startGame)
+
+// - MAIN PAGE
 
 let questions = [
     {
@@ -119,7 +166,6 @@ heading.innerText = questions[questionNumber].question
     let amountAnswered = document.querySelector(".questions-answered")
     amountAnswered.innerText = `Questions answered -- ${questionNumber}/10`
 
-
 // END GAME MODEL VARIABLES
 const endGameModal = document.querySelector(".end-game")
 const gameScore = document.querySelector(".score")
@@ -175,14 +221,9 @@ function answerQuestion (event) {
 
                     // - REDIRECTING FUNCS
                     function backToHome () {
-                        window.location = "home-page.html"
+                        window.location.reload()
                     }
                     homePage.addEventListener("click", backToHome)
-
-                    function playAgain () {
-                        window.location = "index.html"
-                    }
-                    playAgainButton.addEventListener("click", playAgain)
                 }
                 nextQuestion.addEventListener("click", finishGame)
         }
