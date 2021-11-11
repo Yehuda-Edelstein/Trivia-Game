@@ -5,9 +5,14 @@
 
 ### Application View
 
+(https://ibb.co/4PjXdpK)
+
 ### Wire Frames
 
-
+![Home Page](https://ibb.co/s1Mppfc)
+![Question Page - before answer](https://ibb.co/QNqV4R7)
+![Question Page - after answer](https://ibb.co/nzhW8yW)
+![End Game Modul](https://ibb.co/3k3P3F8)
 
 
 ### Technologies Used
