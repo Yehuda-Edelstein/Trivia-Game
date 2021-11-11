@@ -24,7 +24,7 @@ https://i.ibb.co/D57vpQz/Screen-Recording-2021-11-11-at-1-56-00-PM-Spark-Video.g
     - Stack Overflow
 
 ### Installation Instructions
-    - Go to https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/ and enjoy the fun.
+No download needed. Just go to https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/ and enjoy the fun.
 
 ### User Stories
     - I want to be able to play a trivia game because I like trivia.
@@ -42,4 +42,5 @@ I had trouble figuring out the best way to have the game run as a loop. Eventual
 
 Styling the game was another challenge as I am not such an artistic person, it was hard for me to make the site asthetic. In the end, I went for funtionality over pretty.
 
+Working with GitHub and the README were actually very difficult for me, and I couldn't even get the pictures or gif to display, so I still need to work on that.
 
