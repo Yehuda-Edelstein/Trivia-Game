@@ -38,6 +38,6 @@ instructions.addEventListener("click", howToPlay)
 
 function startGame (event) {
     event.preventDefault()
-    window.location = href="index.html"
+    window.location = href="https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/index.html"
 }
 startButton.addEventListener("click", startGame)
