@@ -1,11 +1,14 @@
 # Triva Game, Trivia Game
 
 ### Website Link 
-- https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/home-page.html
+- https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/
+
+### Application View
 
 ### Wire Frames
 
-https://ibb.co/s1Mppfc
+
+
 
 ### Technologies Used
     - HTML
@@ -15,7 +18,7 @@ https://ibb.co/s1Mppfc
     - Stack Overflow
 
 ### Installation Instructions
-    - Go to https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/home-page.html and enjoy the fun.
+    - Go to https://pages.git.generalassemb.ly/Yehuda-Edelstein/Trivia-Game/ and enjoy the fun.
 
 ### User Stories
     - I want to be able to play a trivia game because I like trivia.
