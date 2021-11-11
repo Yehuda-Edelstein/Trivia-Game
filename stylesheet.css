@@ -9,6 +9,10 @@ body {
     background-color: rgba(255, 0, 0, .2)
 }
 
+h1 {
+    padding: 15px;
+}
+
 h1, .questions-answered, .description, p {
     text-align: center;
 }
@@ -109,6 +113,7 @@ li:hover, .instructions:hover, .start-button:hover {
 li, .next-question, .instructions, .start-button, #close-button, .play-again, .home-page { cursor: pointer; }
 
 
+
 /* END OF GAME MODUL */
 
 .end-game {
@@ -155,4 +160,8 @@ li, .next-question, .instructions, .start-button, #close-button, .play-again, .h
 .questions-answered {
     border-bottom: 2px solid black;
     padding-bottom: 20px;
+}
+
+.no-modal {
+    display: none;
 }
