@@ -1,4 +1,6 @@
 // - VARIABLES
+window.location = "home-page.html"
+
 let questions = [
     {
         question: "In what year was the term 'trivia' first documented publically?",
